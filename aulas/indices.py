@@ -15,9 +15,6 @@ while contador < tamanho_frase:
         nova_string += input_do_user.upper()
     else:
         nova_string += letra
-
-    # nova_string += frase[contador]um print por execução
-    # print(nova_string) um print por execução
     contador += 1
 
 print(nova_string)
